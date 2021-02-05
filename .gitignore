@@ -1,3 +1,4 @@
 .idea
 javacore.iml
 target
+/java/src/test/java/
