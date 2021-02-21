@@ -1,0 +1,190 @@
+{
+  "Headline": {
+    "EffectiveDate": "2021-02-21T01:00:00+03:00",
+    "EffectiveEpochDate": 1613858400,
+    "Severity": 3,
+    "Text": "2-4 inches of snow late Saturday night through Sunday morning",
+    "Category": "snow",
+    "EndDate": "2021-02-21T13:00:00+03:00",
+    "EndEpochDate": 1613901600,
+    "MobileLink": "http://m.accuweather.com/en/ru/saint-petersburg/295212/extended-weather-forecast/295212?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2021-02-20T07:00:00+03:00",
+      "EpochDate": 1613793600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 18.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 19.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 19,
+        "IconPhrase": "Flurries",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 19,
+        "IconPhrase": "Flurries",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=1&lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=1&lang=en-us"
+    },
+    {
+      "Date": "2021-02-21T07:00:00+03:00",
+      "EpochDate": 1613880000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 8.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 21.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 22,
+        "IconPhrase": "Snow",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Night": {
+        "Icon": 19,
+        "IconPhrase": "Flurries",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=2&lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=2&lang=en-us"
+    },
+    {
+      "Date": "2021-02-22T07:00:00+03:00",
+      "EpochDate": 1613966400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 5.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 11.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 22,
+        "IconPhrase": "Snow",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 19,
+        "IconPhrase": "Flurries",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=3&lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=3&lang=en-us"
+    },
+    {
+      "Date": "2021-02-23T07:00:00+03:00",
+      "EpochDate": 1614052800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 17.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 18.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 19,
+        "IconPhrase": "Flurries",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 19,
+        "IconPhrase": "Flurries",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=4&lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=4&lang=en-us"
+    },
+    {
+      "Date": "2021-02-24T07:00:00+03:00",
+      "EpochDate": 1614139200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 23.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 25.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 19,
+        "IconPhrase": "Flurries",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 19,
+        "IconPhrase": "Flurries",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=5&lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/saint-petersburg/295212/daily-weather-forecast/295212?day=5&lang=en-us"
+    }
+  ]
+}
