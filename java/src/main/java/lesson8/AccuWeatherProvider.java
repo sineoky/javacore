@@ -46,17 +46,13 @@ public class AccuWeatherProvider implements WeatherProvider {
                     .build();
 
             Request request = new Request.Builder()
-               .addHeader("accept", "application/json")
-                   .url(url)
+
                     .build();
             String jsonResponse = client.newCall(request).execute().body().string();
             //выводим в файл результат прогноза
             File file = new File("./forecast5.json");
             if (!file.exists()) {
-               file.createNewFile();
-            }
-            try (PrintWriter out = new PrintWriter(file)) {
-              out.print(jsonResponse);
+
                 System.out.println("Погода за 5 дней записана в файл " + file.getName());
             }
         }
@@ -67,7 +63,7 @@ public class AccuWeatherProvider implements WeatherProvider {
         WeatherResponse weatherResponse = objectMapper.readValue(new File("forecast5.json"), WeatherResponse.class);
         DatabaseRepositorySQLite.writeData(weatherResponse,city);
         DatabaseRepositorySQLite.printData(city);
-        }
+
 
     //узнаем id города
     public static String setGlobalCity(String mycity) throws IOException {
@@ -83,19 +79,7 @@ public class AccuWeatherProvider implements WeatherProvider {
                 .build();
 
         Request request = new Request.Builder()
-        .addHeader("accept", "application/json")
-              .url(url)
-              .build();
-        String jsonResponse = client.newCall(request).execute().body().string();
 
-       File file = new File("./top150.json");
-        if (!file.exists()) {
-         file.createNewFile();
-       }
-       try (PrintWriter out = new PrintWriter(file)) {
-           out.print(jsonResponse);
-            //из этого файла найдем id города
-         System.out.println("Информация по 150 городам записана в файл " + file.getName());
         }
         //ищем в файле код города
         ObjectMapper objectMapper = new ObjectMapper();
@@ -121,4 +105,4 @@ public class AccuWeatherProvider implements WeatherProvider {
         }
         return cityKey;
     }
-}
+

@@ -6,7 +6,7 @@ public class DatabaseRepositorySQLite {
     public static Connection conn;
     public static Statement statmt;
     public static ResultSet resSet;
-//пишем данные в базу
+
     public static void writeData(WeatherResponse weatherResponse, String city) {
         try {
             conn = null;
@@ -52,10 +52,5 @@ public class DatabaseRepositorySQLite {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        }
-
-    }
-
-
 
 
