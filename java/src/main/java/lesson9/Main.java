@@ -12,6 +12,7 @@ public class Main {
             SuperStudent superStudent3 = new SuperStudent("Sahsha", new ArrayList(Arrays.asList("Java", "Scala", "Math", "English")));
             SuperStudent superStudent4 = new SuperStudent("Vitya", new ArrayList(Arrays.asList("Physics", "Scala", "Math")));
 
+
             List<Student> students = new ArrayList(Arrays.asList(superStudent1, superStudent2, superStudent3, superStudent4));
             //печатаем список уникальных курсов, на которые подписаны студенты
             System.out.println("Cписок уникальных курсов, на которые подписаны студенты:");

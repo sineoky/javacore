@@ -4,7 +4,6 @@ import java.util.List;
 
 public class SuperStudent implements Student  {
     //public class SuperStudent implements Student, Course {
-
         private String name;
     private List<Course> allCourses;
 
